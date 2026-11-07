@@ -1,0 +1,25 @@
+# --- Gradle / Android Studio ---
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+app/release/
+
+# --- Credenciales y firma (nunca al repositorio) ---
+keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# --- Sistema / editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
