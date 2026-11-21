@@ -8,18 +8,36 @@ local.properties
 captures/
 .externalNativeBuild/
 .cxx/
+.navigation/
+*.hprof
+
+# --- Artefactos de compilación ---
 *.apk
 *.aab
+*.aar
+app/build/
 app/release/
+app/debug/
+lint-results*.html
+lint-results*.xml
+*.log
 
 # --- Credenciales y firma (nunca al repositorio) ---
 keystore/
 *.jks
 *.keystore
 keystore.properties
+.env
+.env.*
+!.env.example
 
 # --- Sistema / editores ---
 .DS_Store
 Thumbs.db
 .vscode/
 *.swp
+*~
+
+# --- Excepciones: el wrapper de Gradle SÍ se versiona ---
+# Sin gradle-wrapper.jar el proyecto no compila en otra máquina ni en CI.
+!gradle/wrapper/gradle-wrapper.jar

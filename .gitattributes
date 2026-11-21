@@ -1,0 +1,13 @@
+# Normaliza finales de línea: el wrapper debe seguir siendo ejecutable en Linux/macOS/CI.
+* text=auto
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.properties text eol=lf
+
+# Binarios: nunca normalizar.
+*.jar binary
+*.png binary
+*.jpg binary
+*.jks binary
+*.keystore binary
