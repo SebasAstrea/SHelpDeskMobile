@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Opciones del select de área (values/valores del HTML original). -->
+    <string-array name="areas">
+        <item>Selecciona tu área...</item>
+        <item>Calidad</item>
+        <item>Producción</item>
+        <item>RRHH</item>
+        <item>Finanzas</item>
+        <item>Ventas</item>
+        <item>Marketing</item>
+        <item>Logística</item>
+        <item>TI</item>
+        <item>Operaciones</item>
+        <item>Administración</item>
+    </string-array>
+
+    <string-array name="areas_valores">
+        <item></item>
+        <item>Calidad</item>
+        <item>Producción</item>
+        <item>RRHH</item>
+        <item>Finanzas</item>
+        <item>Ventas</item>
+        <item>Marketing</item>
+        <item>Logística</item>
+        <item>TI</item>
+        <item>Operaciones</item>
+        <item>Administración</item>
+    </string-array>
+
+    <!-- Categorías y prioridades del formulario de ticket -->
+    <string-array name="categorias">
+        <item>Selecciona una categoría...</item>
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>Red/Internet</item>
+        <item>Cuentas/Accesos</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="prioridades">
+        <item>Selecciona prioridad...</item>
+        <item>Crítica</item>
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+
+    <!-- Contenedores y colas del visor de logs del panel de administración -->
+    <string-array name="contenedores">
+        <item>helpdesk-backend</item>
+        <item>helpdesk-db</item>
+        <item>helpdesk-streamlit</item>
+        <item>n8n</item>
+        <item>ollama</item>
+    </string-array>
+
+    <string-array name="log_lineas">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+    </string-array>
+
+    <string-array name="roles_usuario">
+        <item>solicitante</item>
+        <item>agente</item>
+        <item>coordinador</item>
+        <item>administrador</item>
+    </string-array>
+
+    <string-array name="estados_reporte">
+        <item>todos</item>
+        <item>nuevo</item>
+        <item>asignado</item>
+        <item>en_proceso</item>
+        <item>resuelto</item>
+        <item>cerrado</item>
+    </string-array>
+</resources>

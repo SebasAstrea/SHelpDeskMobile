@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Tema nocturno: replica body.night-mode del frontend web.
+    Los mismos nombres de color que values/colors.xml, en modo noche.
+-->
+<resources>
+    <color name="sky_top">#000000</color>
+    <color name="sky_mid">#0A0A2E</color>
+    <color name="sky_low">#1A1A3E</color>
+    <color name="grass">#0D2818</color>
+
+    <color name="btn_top">#4A6FA5</color>
+    <color name="btn_mid">#34A4C4</color>
+    <color name="btn_bottom">#1A2A4A</color>
+
+    <color name="text_dark">#E0E0FF</color>
+    <color name="text_soft">#B8B8D8</color>
+    <color name="text_placeholder">#8888AA</color>
+    <color name="icon_color">#A0A0D0</color>
+    <color name="footer_text">#C0C0E0</color>
+    <color name="link">#88AAFF</color>
+
+    <color name="glass_bg">#731E1E32</color>
+    <color name="glass_bg_strong">#A6282846</color>
+    <color name="glass_border">#59649659</color>
+    <color name="glass_input">#BF28283C</color>
+    <color name="nav_bg">#4D282850</color>
+    <color name="nav_active">#663C3C78</color>
+
+    <color name="surface">#0B0B1E</color>
+    <color name="surface_card">#1E1E32</color>
+    <color name="surface_soft">#203B5C</color>
+
+    <color name="pill_nuevo">#2563EB</color>
+    <color name="pill_asignado">#0369A1</color>
+    <color name="pill_proceso">#C2410C</color>
+    <color name="pill_resuelto">#047857</color>
+    <color name="pill_cerrado">#64748B</color>
+    <color name="pill_escalado">#BE123C</color>
+    <color name="pill_archivado">#64748B</color>
+
+    <color name="prio_bar_critical">#FF4444</color>
+    <color name="prio_bar_high">#FF8800</color>
+    <color name="prio_bar_medium">#FFCC00</color>
+    <color name="prio_bar_low">#44BB44</color>
+    <color name="pill_critical">#DC2626</color>
+    <color name="pill_high">#EA580C</color>
+    <color name="pill_medium">#CA8A04</color>
+    <color name="pill_low">#16A34A</color>
+
+    <color name="tag_hardware">#EA580C</color>
+    <color name="tag_software">#7C3AED</color>
+    <color name="tag_network">#2563EB</color>
+    <color name="tag_access">#E11D48</color>
+    <color name="tag_other">#059669</color>
+
+    <color name="role_administrador">#D97706</color>
+    <color name="role_coordinador">#8B5CF6</color>
+    <color name="role_agente">#3B82F6</color>
+    <color name="role_solicitante">#10B981</color>
+
+    <color name="estado_activo">#10B981</color>
+    <color name="estado_inactivo">#64748B</color>
+
+    <color name="kpi_blue">#60A5FA</color>
+    <color name="kpi_green">#34D399</color>
+    <color name="kpi_yellow">#FBBF24</color>
+    <color name="kpi_purple">#A78BFA</color>
+    <color name="trend_positive">#22C55E</color>
+
+    <color name="danger">#EF4444</color>
+    <color name="danger_dark">#B91C1C</color>
+    <color name="success">#10B981</color>
+    <color name="success_dark">#047857</color>
+    <color name="warning">#F59E0B</color>
+    <color name="info">#60A5FA</color>
+    <color name="purple_accent">#9370DB</color>
+
+    <color name="error_bg">#33FF6464</color>
+    <color name="error_border">#80FF3333</color>
+    <color name="error_text">#FFB3B3</color>
+    <color name="success_bg">#3364C864</color>
+    <color name="success_border">#8032C832</color>
+    <color name="success_text">#88FF88</color>
+    <color name="loading_bg">#336496FF</color>
+    <color name="loading_text">#AACCFF</color>
+
+    <color name="chat_bubble_bot">#663C3C64</color>
+    <color name="chat_bubble_user">#4A6FA5</color>
+    <color name="chat_bubble_system">#33FFC832</color>
+    <color name="chat_system_text">#FFCC44</color>
+    <color name="chat_meta">#9AA6C0</color>
+
+    <color name="divider">#33E0E0FF</color>
+    <color name="switch_track">#1A1A3E</color>
+    <color name="badge_red_top">#FF7B7B</color>
+    <color name="badge_red_bottom">#D63C3C</color>
+    <color name="gold">#FFD700</color>
+</resources>

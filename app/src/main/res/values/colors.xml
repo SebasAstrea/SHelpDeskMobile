@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Paleta del port móvil. Reproduce las variables CSS del frontend web
+    (styles/*.css :root). La variante nocturna vive en values-night/colors.xml.
+-->
+<resources>
+    <!-- Fondo "cielo -> césped" -->
+    <color name="sky_top">#10599D</color>
+    <!-- Fijo (sin variante nocturna) para el icono del launcher -->
+    <color name="ic_launcher_background">#10599D</color>
+    <color name="sky_mid">#3CA0D4</color>
+    <color name="sky_low">#87CEEB</color>
+    <color name="grass">#429D29</color>
+
+    <!-- Gradiente glossy de botones principales -->
+    <color name="btn_top">#8DE3DF</color>
+    <color name="btn_mid">#34A4C4</color>
+    <color name="btn_bottom">#1A7495</color>
+
+    <!-- Tipografía -->
+    <color name="text_dark">#11425E</color>
+    <color name="text_soft">#3B7491</color>
+    <color name="text_placeholder">#3B7491</color>
+    <color name="icon_color">#4A8CAE</color>
+    <color name="footer_text">#0B3147</color>
+    <color name="link">#004D6B</color>
+
+    <!-- Vidrio (glassmorphism) -->
+    <color name="glass_bg">#40FFFFFF</color>
+    <color name="glass_bg_strong">#73FFFFFF</color>
+    <color name="glass_border">#B3FFFFFF</color>
+    <color name="glass_input">#B8FFFFFF</color>
+    <color name="nav_bg">#26FFFFFF</color>
+    <color name="nav_active">#4DFFFFFF</color>
+
+    <!-- Superficies sólidas (tarjetas/tablas) -->
+    <color name="surface">#F3F9FD</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_soft">#E8F4FB</color>
+
+    <!-- Estados de ticket (pills) -->
+    <color name="pill_nuevo">#1D4ED8</color>
+    <color name="pill_asignado">#0369A1</color>
+    <color name="pill_proceso">#C2410C</color>
+    <color name="pill_resuelto">#047857</color>
+    <color name="pill_cerrado">#475569</color>
+    <color name="pill_escalado">#BE123C</color>
+    <color name="pill_archivado">#475569</color>
+
+    <!-- Prioridad: barra kanban + pill -->
+    <color name="prio_bar_critical">#FF4444</color>
+    <color name="prio_bar_high">#FF8800</color>
+    <color name="prio_bar_medium">#FFCC00</color>
+    <color name="prio_bar_low">#44BB44</color>
+    <color name="pill_critical">#B91C1C</color>
+    <color name="pill_high">#C2410C</color>
+    <color name="pill_medium">#A16207</color>
+    <color name="pill_low">#15803D</color>
+
+    <!-- Categorías -->
+    <color name="tag_hardware">#C2410C</color>
+    <color name="tag_software">#7C3AED</color>
+    <color name="tag_network">#1D4ED8</color>
+    <color name="tag_access">#BE123C</color>
+    <color name="tag_other">#047857</color>
+
+    <!-- Roles -->
+    <color name="role_administrador">#B45309</color>
+    <color name="role_coordinador">#7C3AED</color>
+    <color name="role_agente">#1D4ED8</color>
+    <color name="role_solicitante">#047857</color>
+
+    <!-- Estado de usuario -->
+    <color name="estado_activo">#047857</color>
+    <color name="estado_inactivo">#475569</color>
+
+    <!-- Acentos / KPI -->
+    <color name="kpi_blue">#3B82F6</color>
+    <color name="kpi_green">#10B981</color>
+    <color name="kpi_yellow">#F59E0B</color>
+    <color name="kpi_purple">#8B5CF6</color>
+    <color name="trend_positive">#22C55E</color>
+
+    <!-- Semánticos -->
+    <color name="danger">#DC2626</color>
+    <color name="danger_dark">#991B1B</color>
+    <color name="success">#10B981</color>
+    <color name="success_dark">#047857</color>
+    <color name="warning">#F59E0B</color>
+    <color name="info">#2563EB</color>
+    <color name="purple_accent">#8A2BE2</color>
+
+    <!-- Mensajes -->
+    <color name="error_bg">#4DFF6464</color>
+    <color name="error_border">#80FF0000</color>
+    <color name="error_text">#8B0000</color>
+    <color name="success_bg">#4D64FF64</color>
+    <color name="success_border">#80008000</color>
+    <color name="success_text">#006400</color>
+    <color name="loading_bg">#4D64C8FF</color>
+    <color name="loading_text">#004080</color>
+
+    <!-- Chat -->
+    <color name="chat_bubble_bot">#26FFFFFF</color>
+    <color name="chat_bubble_user">#1A7495</color>
+    <color name="chat_bubble_system">#33FFC832</color>
+    <color name="chat_system_text">#AA7700</color>
+    <color name="chat_meta">#7A8A99</color>
+
+    <!-- Controles -->
+    <color name="divider">#3311425E</color>
+    <color name="switch_track">#87CEEB</color>
+    <color name="badge_red_top">#FF7B7B</color>
+    <color name="badge_red_bottom">#D63C3C</color>
+    <color name="gold">#FFD700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

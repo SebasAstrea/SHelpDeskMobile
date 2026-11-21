@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Botón principal glossy: #8de3df -> #34a4c4 -> #1a7495. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/btn_mid"
+        android:endColor="@color/btn_bottom"
+        android:startColor="@color/btn_top"
+        android:type="linear" />
+    <stroke
+        android:width="2dp"
+        android:color="#99FFFFFF" />
+    <corners android:radius="50dp" />
+</shape>

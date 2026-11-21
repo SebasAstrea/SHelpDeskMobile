@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Solo TLS con la cadena de confianza del sistema (CA del sistema; se ignoran las
+  CA instaladas por el usuario) y sin tráfico cleartext hacia ningún host.
+  No se fijan pins: el tunel Cloudflare rota certificados y fijarlos romperia la app.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">sistemahelpdesk.online</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

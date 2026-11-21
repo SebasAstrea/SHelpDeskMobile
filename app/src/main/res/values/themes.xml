@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base DayNight. Sin ActionBar: cada pantalla lleva su propia cabecera,
+        igual que el .topbar del HTML.
+    -->
+    <style name="Theme.SHelpDesk" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/btn_mid</item>
+        <item name="colorPrimaryDark">@color/btn_bottom</item>
+        <item name="colorAccent">@color/btn_top</item>
+        <item name="colorSecondary">@color/btn_top</item>
+        <item name="android:statusBarColor">@color/sky_top</item>
+        <item name="android:navigationBarColor">@color/btn_bottom</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_placeholder</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+</resources>
